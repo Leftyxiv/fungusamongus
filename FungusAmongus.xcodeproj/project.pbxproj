@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA8142D82C95A629001D7840 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = FA8142D72C95A629001D7840 /* RealityKitContent */; };
+		FA8142DA2C95A629001D7840 /* FungusAmongusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8142D92C95A629001D7840 /* FungusAmongusApp.swift */; };
+		FA8142DC2C95A629001D7840 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8142DB2C95A629001D7840 /* ContentView.swift */; };
+		FA8142DE2C95A62B001D7840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8142DD2C95A62B001D7840 /* Assets.xcassets */; };
+		FA8142E12C95A62B001D7840 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8142E02C95A62B001D7840 /* Preview Assets.xcassets */; };
+		FA8142EC2C95A62B001D7840 /* FungusAmongusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8142EB2C95A62B001D7840 /* FungusAmongusTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA8142E82C95A62B001D7840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8142CA2C95A629001D7840 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8142D12C95A629001D7840;
+			remoteInfo = FungusAmongus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA8142D22C95A629001D7840 /* FungusAmongus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FungusAmongus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8142D62C95A629001D7840 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		FA8142D92C95A629001D7840 /* FungusAmongusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FungusAmongusApp.swift; sourceTree = "<group>"; };
+		FA8142DB2C95A629001D7840 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA8142DD2C95A62B001D7840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA8142E02C95A62B001D7840 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA8142E22C95A62B001D7840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8142E72C95A62B001D7840 /* FungusAmongusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FungusAmongusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8142EB2C95A62B001D7840 /* FungusAmongusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FungusAmongusTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA8142CF2C95A629001D7840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8142D82C95A629001D7840 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8142E42C95A62B001D7840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA8142C92C95A629001D7840 = {
+			isa = PBXGroup;
+			children = (
+				FA8142D42C95A629001D7840 /* FungusAmongus */,
+				FA8142D52C95A629001D7840 /* Packages */,
+				FA8142EA2C95A62B001D7840 /* FungusAmongusTests */,
+				FA8142D32C95A629001D7840 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA8142D32C95A629001D7840 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA8142D22C95A629001D7840 /* FungusAmongus.app */,
+				FA8142E72C95A62B001D7840 /* FungusAmongusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA8142D42C95A629001D7840 /* FungusAmongus */ = {
+			isa = PBXGroup;
+			children = (
+				FA8142D92C95A629001D7840 /* FungusAmongusApp.swift */,
+				FA8142DB2C95A629001D7840 /* ContentView.swift */,
+				FA8142DD2C95A62B001D7840 /* Assets.xcassets */,
+				FA8142E22C95A62B001D7840 /* Info.plist */,
+				FA8142DF2C95A62B001D7840 /* Preview Content */,
+			);
+			path = FungusAmongus;
+			sourceTree = "<group>";
+		};
+		FA8142D52C95A629001D7840 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				FA8142D62C95A629001D7840 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		FA8142DF2C95A62B001D7840 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA8142E02C95A62B001D7840 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA8142EA2C95A62B001D7840 /* FungusAmongusTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA8142EB2C95A62B001D7840 /* FungusAmongusTests.swift */,
+			);
+			path = FungusAmongusTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA8142D12C95A629001D7840 /* FungusAmongus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8142EF2C95A62B001D7840 /* Build configuration list for PBXNativeTarget "FungusAmongus" */;
+			buildPhases = (
+				FA8142CE2C95A629001D7840 /* Sources */,
+				FA8142CF2C95A629001D7840 /* Frameworks */,
+				FA8142D02C95A629001D7840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FungusAmongus;
+			packageProductDependencies = (
+				FA8142D72C95A629001D7840 /* RealityKitContent */,
+			);
+			productName = FungusAmongus;
+			productReference = FA8142D22C95A629001D7840 /* FungusAmongus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA8142E62C95A62B001D7840 /* FungusAmongusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8142F22C95A62B001D7840 /* Build configuration list for PBXNativeTarget "FungusAmongusTests" */;
+			buildPhases = (
+				FA8142E32C95A62B001D7840 /* Sources */,
+				FA8142E42C95A62B001D7840 /* Frameworks */,
+				FA8142E52C95A62B001D7840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA8142E92C95A62B001D7840 /* PBXTargetDependency */,
+			);
+			name = FungusAmongusTests;
+			productName = FungusAmongusTests;
+			productReference = FA8142E72C95A62B001D7840 /* FungusAmongusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA8142CA2C95A629001D7840 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FA8142D12C95A629001D7840 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FA8142E62C95A62B001D7840 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FA8142D12C95A629001D7840;
+					};
+				};
+			};
+			buildConfigurationList = FA8142CD2C95A629001D7840 /* Build configuration list for PBXProject "FungusAmongus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA8142C92C95A629001D7840;
+			productRefGroup = FA8142D32C95A629001D7840 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA8142D12C95A629001D7840 /* FungusAmongus */,
+				FA8142E62C95A62B001D7840 /* FungusAmongusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA8142D02C95A629001D7840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8142E12C95A62B001D7840 /* Preview Assets.xcassets in Resources */,
+				FA8142DE2C95A62B001D7840 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8142E52C95A62B001D7840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA8142CE2C95A629001D7840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8142DC2C95A629001D7840 /* ContentView.swift in Sources */,
+				FA8142DA2C95A629001D7840 /* FungusAmongusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8142E32C95A62B001D7840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8142EC2C95A62B001D7840 /* FungusAmongusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA8142E92C95A62B001D7840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA8142D12C95A629001D7840 /* FungusAmongus */;
+			targetProxy = FA8142E82C95A62B001D7840 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA8142ED2C95A62B001D7840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		FA8142EE2C95A62B001D7840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+		FA8142F02C95A62B001D7840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FungusAmongus/Preview Content\"";
+				DEVELOPMENT_TEAM = 246UA9G9AW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aledoux.net.FungusAmongus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		FA8142F12C95A62B001D7840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FungusAmongus/Preview Content\"";
+				DEVELOPMENT_TEAM = 246UA9G9AW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aledoux.net.FungusAmongus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		FA8142F32C95A62B001D7840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 246UA9G9AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aledoux.net.FungusAmongusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FungusAmongus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FungusAmongus";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		FA8142F42C95A62B001D7840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 246UA9G9AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aledoux.net.FungusAmongusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FungusAmongus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FungusAmongus";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA8142CD2C95A629001D7840 /* Build configuration list for PBXProject "FungusAmongus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8142ED2C95A62B001D7840 /* Debug */,
+				FA8142EE2C95A62B001D7840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8142EF2C95A62B001D7840 /* Build configuration list for PBXNativeTarget "FungusAmongus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8142F02C95A62B001D7840 /* Debug */,
+				FA8142F12C95A62B001D7840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8142F22C95A62B001D7840 /* Build configuration list for PBXNativeTarget "FungusAmongusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8142F32C95A62B001D7840 /* Debug */,
+				FA8142F42C95A62B001D7840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA8142D72C95A629001D7840 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FA8142CA2C95A629001D7840 /* Project object */;
+}
